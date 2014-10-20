@@ -47,6 +47,10 @@ module Rosette
 
             when String
               delim
+
+            else
+              raise ArgumentError,
+                "'#{delim.class.name}' isn't a supported type of delimiter."
           end
         end
 
