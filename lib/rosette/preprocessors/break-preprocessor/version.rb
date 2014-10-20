@@ -2,8 +2,6 @@
 
 module Rosette
   module Preprocessors
-    class BreakPreprocessor
-      VERSION = '1.0.0'
-    end
+    BREAK_PREPROCESSOR_VERSION = '1.0.0'
   end
 end

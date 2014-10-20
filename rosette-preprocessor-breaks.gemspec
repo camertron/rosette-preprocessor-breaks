@@ -3,7 +3,7 @@ require 'rosette/preprocessors/break-preprocessor/version'
 
 Gem::Specification.new do |s|
   s.name     = "rosette-preprocessor-break"
-  s.version  = ::Rosette::Preprocessors::BreakPreprocessor::VERSION
+  s.version  = ::Rosette::Preprocessors::BREAK_PREPROCESSOR_VERSION
   s.authors  = ["Cameron Dutro"]
   s.email    = ["camertron@gmail.com"]
   s.homepage = "http://github.com/camertron"
