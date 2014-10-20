@@ -83,8 +83,6 @@ module Rosette
 
         if is_trans
           :process_translation
-        elsif object.is_a?(String)
-          :process_string
         end
       end
     end
